@@ -1,5 +1,5 @@
 # ProjekAkhirKripto2023
-Sebuah website "Kuliner Kriptografi" dimana data inputnya berupa resep-resep masakan rahasia, dienkripsi pada database-nya.
+Sebuah website "Kuliner Rahasia" dimana data inputnya berupa resep-resep masakan rahasia, dienkripsi pada database-nya.
 
 cr:   
 Khairunnisa Karima Prayogi  
