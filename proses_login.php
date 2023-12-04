@@ -17,6 +17,7 @@
 
     if($cek>0)
     {
+        $_SESSION['id_akun'] = $id_akun;
         $_SESSION['username'] = $username;
 
         $row         = mysqli_fetch_assoc($sql);

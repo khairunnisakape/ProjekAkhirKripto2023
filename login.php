@@ -12,38 +12,57 @@
     <link rel="stylesheet" href="assets/css/style.css" />
 
     <style>
-        
-        .content {
-          background-image: url('assets/img/back2.jfif');
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-          background-size: 100% 100%;
-          
-        }
+       .btn-coklat2{
+        background-color: #776B5D;
+        color: #FAF6F0; 
+        padding: 5px 25px;
+        font-weight: 500;
+        width: 350px;
+      }
+      .btn-coklat2:hover{
+        border-color: #776B5D;
+        color:  #776B5D;
+        background-color: #FAF6F0;
+      }
+      .form-ku{
+        width: 350px;
+        margin-top: 10px;
+
+      }
+      .konten{
+        background-color: #EBE3D5;
+        padding-top: 155px;
+        padding-bottom: 230px;
+        width: 100%; 
+      }
+      .caption{
+        font-size: 20px;
+      }
+      .link, .link:hover{
+        color: #776B5D;
+      }
+      .link:hover{
+        font-weight: bold;
+      }
     </style>
 </head>
-<body class="content">
+<body class="konten">
     <div class="formulir container">
-        <div class="col align-self-center">
+        <div align="center">
             <h1 class="judul text-center fw-bold">LOGIN</h1>
             <form method="POST" action="proses_login.php">
                 <div class="mb-3">
-                    <label class="form-label">Nama Pengguna</label>
-                    <input type="text" class="form-control" placeholder="Masukkan Nama Pengguna" name="username">
+                    <input type="text" class="form-control form-ku" placeholder="Masukkan Nama Pengguna" name="username">
                 </div>
-                
                 <div class="mb-3">
-                    <label class="form-label">Kata Sandi</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Masukkan password" name="password">
+                    <input type="password" class="form-control form-ku" id="exampleInputPassword1" placeholder="Masukkan password" name="password">
                 </div>
-                <center>
-                    <button type="submit" class="btn btn-primary">login</button> <br>
-                </center>
+                <button type="submit" class="btn btn-coklat2">Login</button> <br>                
             </form>
             <br>
-            <center>
-                <p class="putih">Belum punya akun? <a href="regist.php" class="putih fw-bold">Daftar</a></p>
-            </center>
+            <p>
+                Belum punya akun? <a href="daftar.php" class="link">Daftar</a>
+            </p>
         </div> 
     </div>
 
